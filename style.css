@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+  text-align: center;
+  font-family: "Merriweather", "Times New Roman", Times, serif;
+  border-style: none;
+}
+
+body {
+  min-height: 400px;
+  background-image: url("https://www.alura.com.br/assets/img/imersoes/dev-2021/tabela-classificacao-bg.png");
+  background-color: #111;
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+table {
+  max-width: 50%;
+  min-width: 500px;
+  margin: auto;
+  border: 2px solid white;
+  border-collapse: collapse;
+}
+
+h1 {
+  color: white;
+}
+
+th,
+tr,
+td {
+  padding: 4px;
+  border: solid 1px white;
+  color: white;
+}
+
+button {
+  background-color: #002351;
+  color: #f6f6f6;
+  border: 0.5px solid #284c7b;
+  border-radius: 3px;
+}
+
+#submit,
+input {
+  padding: 10px;
+  border-radius: 3px;
+}
+
+#userInput {
+  max-width: 40%;
+  min-width: 400px;
+  margin: 15px auto;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 15px;
+}
+
+/* .tableRow {
+  display: grid;
+  grid-template-columns: 3fr 1fr 1fr 1fr 1.5fr;
+} */
+
+#head {
+  background-color: #002351;
+  color: white;
+}

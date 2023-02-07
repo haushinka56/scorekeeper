@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="charset" content="width=device-width, initial-sclae=1.0" />
+
+    <title>Scorekeeper</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <title>Imersão Dev</title>
+
+    <h1>Scores</h1>
+
+    <div id="userInput">
+      <input id="playerName" type="text" placeholder="insert name here" />
+      <button id="submit" type="submit">Add new player</button>
+    </div>
+
+    <table id="table">
+      <thead id="head">
+        <tr class="tableRow">
+          <th width="35%">Name</th>
+          <th width="15%">Wins</th>
+          <th width="15%">Ties</th>
+          <th width="15%">Losses</th>
+          <th width="20%">Points</th>
+        </tr>
+      </thead>
+
+      <tbody id="tablePlayers">
+        <!-- <div class="tableRow">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+       </div> -->
+      </tbody>
+    </table>
+
+    <script src="script.js"></script>
+  </body>
+</html>
